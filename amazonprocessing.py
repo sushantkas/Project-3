@@ -28,14 +28,15 @@ class preprocessing:
             - Fills missing values in 'Weather', 'Traffic', and 'Order_Time' with their respective modes.
         """
         amazon[amazon.select_dtypes("object").columns]=amazon[amazon.select_dtypes("object").columns].apply(lambda x: x.str.strip())
+        amazon['Store_Longitude']=amazon['Store_Longitude'].abs()
+        amazon['Store_Latitude']=amazon['Store_Latitude'].abs()
         for i in amazon[amazon.select_dtypes("object").columns]:
             amazon[i].replace("NaN",np.nan, inplace=True)
         _columns=['Order_ID', 'Agent_Age', 'Agent_Rating', 'Store_Latitude',
                         'Store_Longitude', 'Drop_Latitude', 'Drop_Longitude', 'Order_Date',
                         'Order_Time', 'Pickup_Time', 'Weather', 'Traffic', 'Vehicle', 'Area',
                         'Delivery_Time', 'Category']
-        amazon['Store_Longitude']=amazon['Store_Longitude'].abs()
-        amazon['Store_Latitude']=amazon['Store_Latitude'].abs()
+        
         
         if amazon.columns == _columns:
             self.amazon=amazon

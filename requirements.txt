@@ -2,4 +2,3 @@ pandas
 seaborn
 mlflow
 matplotlib
-ydata-profiling
