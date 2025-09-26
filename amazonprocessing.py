@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-class preprocess:
+class preprocessing:
     """
     A class to preprocess Amazon delivery data for further analysis or modeling.
 
@@ -82,3 +82,42 @@ class preprocess:
         c = 2 * np.arcsin(np.sqrt(a))
 
         return R * c
+
+def get_part_of_day(self):
+    """
+    Categorizes pickup times into parts of the day.
+    
+    Returns:
+        preprocess: Returns the instance of the class for method chaining.
+        
+    Raises:
+        ValueError: If Pickup_Time contains invalid time formats
+    """
+    try:
+        # Convert to datetime and extract hour, handling potential errors
+        hour = pd.to_datetime(self.amazon["Pickup_Time"]).dt.hour
+        
+        # Create time period labels
+        conditions = [
+            (hour >= 0) & (hour < 5),
+            (hour >= 5) & (hour < 12),
+            (hour >= 12) & (hour < 17),
+            (hour >= 17) & (hour < 21),
+            (hour >= 21) & (hour <= 23)
+        ]
+        
+        choices = ['Late Night', 'Morning', 'Afternoon', 'Evening', 'Night']
+        
+        self.amazon['Pickup_day_part'] = np.select(conditions, choices, default=np.nan)
+        
+        return self
+        
+    except Exception as e:
+        raise ValueError(f"Error processing Pickup_Time: {str(e)}")
+
+
+def amazon_preprocess(amazon):
+    data=preprocessing(amazon)
+    data.amazon["Distance_km"]=data.haversine_vectorized(data.amazon['Store_Latitude'],data.amazon['Store_Longitude'],data.amazon['Drop_Latitude'],data.amazon['Drop_Longitude'])
+    data.amazon["Order_day"]=pd.to_datetime(data.amazon['Order_Date'],infer_datetime_format=True).dt.day_of_week
+    return data.amazon
