@@ -27,28 +27,30 @@ class preprocessing:
             - Fills missing values in 'Agent_Rating' with the median.
             - Fills missing values in 'Weather', 'Traffic', and 'Order_Time' with their respective modes.
         """
-        amazon[amazon.select_dtypes("object").columns]=amazon[amazon.select_dtypes("object").columns].apply(lambda x: x.str.strip())
-        amazon['Store_Longitude']=amazon['Store_Longitude'].abs()
-        amazon['Store_Latitude']=amazon['Store_Latitude'].abs()
+        amazon[amazon.select_dtypes("object").columns] = amazon[amazon.select_dtypes("object").columns].apply(lambda x: x.str.strip())
+        amazon['Store_Longitude'] = amazon['Store_Longitude'].abs()
+        amazon['Store_Latitude'] = amazon['Store_Latitude'].abs()
         for i in amazon[amazon.select_dtypes("object").columns]:
-            amazon[i].replace("NaN",np.nan, inplace=True)
-        _columns=['Order_ID', 'Agent_Age', 'Agent_Rating', 'Store_Latitude',
-                        'Store_Longitude', 'Drop_Latitude', 'Drop_Longitude', 'Order_Date',
-                        'Order_Time', 'Pickup_Time', 'Weather', 'Traffic', 'Vehicle', 'Area',
-                        'Delivery_Time', 'Category']
-        
-        
-        if amazon.columns == _columns:
-            self.amazon=amazon
+            amazon[i] = amazon[i].replace("NaN", np.nan)
+        _columns = [
+            'Order_ID', 'Agent_Age', 'Agent_Rating', 'Store_Latitude',
+            'Store_Longitude', 'Drop_Latitude', 'Drop_Longitude', 'Order_Date',
+            'Order_Time', 'Pickup_Time', 'Weather', 'Traffic', 'Vehicle', 'Area',
+            'Delivery_Time', 'Category'
+        ]
+        if all(col in amazon.columns for col in _columns):
+            self.amazon = amazon
         else:
             print(f"Mismatch in Columns Please pass all the necessary columns in dataset in Following order: {_columns}")
-        self.amazon["Agent_Rating"].fillna(self.amazon["Agent_Rating"].median(),inplace=True)
-        #  as Only a small Fraction is missing we will use Mode method to  fillna
-        self.amazon["Weather"].fillna(self.amazon["Weather"].mode()[0], inplace=True)
-        self.amazon["Traffic"].fillna(self.amazon["Traffic"].mode()[0], inplace=True)
-        self.amazon["Order_Time"].fillna(self.amazon["Order_Time"].mode()[0], inplace=True)
+
+        # Avoid chained assignment warnings
+        self.amazon["Agent_Rating"] = self.amazon["Agent_Rating"].fillna(self.amazon["Agent_Rating"].median())
+        self.amazon["Weather"] = self.amazon["Weather"].fillna(self.amazon["Weather"].mode()[0])
+        self.amazon["Traffic"] = self.amazon["Traffic"].fillna(self.amazon["Traffic"].mode()[0])
+        self.amazon["Order_Time"] = self.amazon["Order_Time"].fillna(self.amazon["Order_Time"].mode()[0])
     
 
+    @staticmethod
     def haversine_vectorized(lat1, lon1, lat2, lon2):
         """
         Computes the Haversine distance between two sets of latitude and longitude coordinates.
@@ -84,41 +86,57 @@ class preprocessing:
 
         return R * c
 
-def get_part_of_day(self):
-    """
-    Categorizes pickup times into parts of the day.
-    
-    Returns:
-        preprocess: Returns the instance of the class for method chaining.
+    def get_part_of_day(self):
+        """
+        Categorizes pickup times into parts of the day.
         
-    Raises:
-        ValueError: If Pickup_Time contains invalid time formats
-    """
-    try:
-        # Convert to datetime and extract hour, handling potential errors
-        hour = pd.to_datetime(self.amazon["Pickup_Time"]).dt.hour
+        Returns:
+            preprocess: Returns the instance of the class for method chaining.
+            
+        Raises:
+            ValueError: If Pickup_Time contains invalid time formats
+        """
+        try:
+            # Specify format to avoid UserWarning
+            hour = pd.to_datetime(self.amazon["Pickup_Time"], format="%H:%M:%S", errors="coerce").dt.hour
+            hour = pd.cut(
+                hour,
+                bins=[0, 5, 12, 17, 21, 24],
+                labels=["Night", "Morning", "Afternoon", "Evening", "Night"],
+                right=False,
+                ordered=False
+            )
+            self.amazon["Pickup_day_part"] = hour
+            return self
+        except Exception as e:
+            raise ValueError(f"Error processing Pickup_Time: {str(e)}")
         
-        # Create time period labels
-        conditions = [
-            (hour >= 0) & (hour < 5),
-            (hour >= 5) & (hour < 12),
-            (hour >= 12) & (hour < 17),
-            (hour >= 17) & (hour < 21),
-            (hour >= 21) & (hour <= 23)
-        ]
+    def delay(df):
+        df["Order_Time"] = pd.to_datetime(df["Order_Time"], format="%H:%M:%S").dt.time
+        df["Pickup_Time"] = pd.to_datetime(df["Pickup_Time"], format="%H:%M:%S").dt.time
+
+        order_min = df["Order_Time"].apply(lambda x: x.hour * 60 + x.minute)
+        pickup_min = df["Pickup_Time"].apply(lambda x: x.hour * 60 + x.minute)
         
-        choices = ['Late Night', 'Morning', 'Afternoon', 'Evening', 'Night']
+        delays = pickup_min - order_min
+        # Fix negative delays (crossing midnight)
+        delays = delays.apply(lambda x: x if x >= 0 else x + 24*60)
         
-        self.amazon['Pickup_day_part'] = np.select(conditions, choices, default=np.nan)
-        
-        return self
-        
-    except Exception as e:
-        raise ValueError(f"Error processing Pickup_Time: {str(e)}")
+        return delays
+
+
 
 
 def amazon_preprocess(amazon):
-    data=preprocessing(amazon)
-    data.amazon["Distance_km"]=data.haversine_vectorized(data.amazon['Store_Latitude'],data.amazon['Store_Longitude'],data.amazon['Drop_Latitude'],data.amazon['Drop_Longitude'])
-    data.amazon["Order_day"]=pd.to_datetime(data.amazon['Order_Date'],infer_datetime_format=True).dt.day_of_week
+    data = preprocessing(amazon)
+    data.amazon["Distance_km"] = preprocessing.haversine_vectorized(
+        data.amazon['Store_Latitude'],
+        data.amazon['Store_Longitude'],
+        data.amazon['Drop_Latitude'],
+        data.amazon['Drop_Longitude']
+    )
+    data.amazon["Delay"]=preprocessing.delay(data.amazon)
+    data.amazon["Order_day"] = pd.to_datetime(data.amazon['Order_Date']).dt.day_of_week
+    data.get_part_of_day()
+    data.amazon.set_index("Order_ID", inplace=True)
     return data.amazon
