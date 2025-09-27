@@ -139,4 +139,12 @@ def amazon_preprocess(amazon):
     data.amazon["Order_day"] = pd.to_datetime(data.amazon['Order_Date']).dt.day_of_week
     data.get_part_of_day()
     data.amazon.set_index("Order_ID", inplace=True)
+    """
+    Dropping Order_date as we have only 3 months of Data and we will be general Model to predict 
+    Dropping Order_time and Pickup time as New Feature 'Delay' already added with the help of these columns which calculates the difference between 
+    order_time and pickuptime
+
+    """
+    data.amazon.drop(["Order_Date","Order_Time","Pickup_Time"],axis=1, inplace=True)
+
     return data.amazon
