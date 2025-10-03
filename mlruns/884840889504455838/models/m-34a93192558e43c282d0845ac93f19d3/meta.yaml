@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-34a93192558e43c282d0845ac93f19d3/artifacts
+creation_timestamp: 1759118898839
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759118949264
+model_id: m-34a93192558e43c282d0845ac93f19d3
+model_type: ''
+name: likeable-shark-293
+source_run_id: 2339581d478d46f8af90438a96d623d4
+status: 2
+status_message: null

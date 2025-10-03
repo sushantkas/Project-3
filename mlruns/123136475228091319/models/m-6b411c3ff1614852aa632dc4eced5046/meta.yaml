@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-6b411c3ff1614852aa632dc4eced5046/artifacts
+creation_timestamp: 1759377193593
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759377202295
+model_id: m-6b411c3ff1614852aa632dc4eced5046
+model_type: ''
+name: welcoming-owl-849
+source_run_id: aa0148af161a4e298cbdd1b041af656c
+status: 2
+status_message: null

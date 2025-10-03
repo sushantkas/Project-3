@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-83f387484d4849569eb93b380e9deb2f/artifacts
+creation_timestamp: 1759069133363
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759069137997
+model_id: m-83f387484d4849569eb93b380e9deb2f
+model_type: ''
+name: amazing-shad-524
+source_run_id: ce5eb04c7a7d4769a8422ffd5ea94e14
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-fdbcf3b5717c47309480c248f404bb44/artifacts
+creation_timestamp: 1759114136826
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759114146680
+model_id: m-fdbcf3b5717c47309480c248f404bb44
+model_type: ''
+name: fearless-jay-157
+source_run_id: 76302458b0254afdbe394ffdc194ec38
+status: 2
+status_message: null

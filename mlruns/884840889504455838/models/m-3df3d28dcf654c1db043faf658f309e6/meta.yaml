@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-3df3d28dcf654c1db043faf658f309e6/artifacts
+creation_timestamp: 1759121074898
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759121079863
+model_id: m-3df3d28dcf654c1db043faf658f309e6
+model_type: ''
+name: luxuriant-chimp-301
+source_run_id: 8d3b025bfcbf4edbbb2a176aaec852c3
+status: 2
+status_message: null

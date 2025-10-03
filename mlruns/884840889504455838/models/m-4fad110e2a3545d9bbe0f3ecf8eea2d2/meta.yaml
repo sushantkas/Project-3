@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-4fad110e2a3545d9bbe0f3ecf8eea2d2/artifacts
+creation_timestamp: 1759379350016
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759379358449
+model_id: m-4fad110e2a3545d9bbe0f3ecf8eea2d2
+model_type: ''
+name: rogue-rook-669
+source_run_id: 78e7078b2fc449899971944cc75c9a94
+status: 2
+status_message: null

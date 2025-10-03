@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-ef3fd19744df4ae18f39e438857856a9/artifacts
+creation_timestamp: 1759202755907
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759202770975
+model_id: m-ef3fd19744df4ae18f39e438857856a9
+model_type: ''
+name: orderly-midge-560
+source_run_id: e08d52a422184d60a194a1cce1f96832
+status: 2
+status_message: null

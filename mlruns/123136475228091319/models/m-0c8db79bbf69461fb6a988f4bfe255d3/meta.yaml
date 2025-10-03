@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-0c8db79bbf69461fb6a988f4bfe255d3/artifacts
+creation_timestamp: 1759068055108
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759068062784
+model_id: m-0c8db79bbf69461fb6a988f4bfe255d3
+model_type: ''
+name: amazing-ray-71
+source_run_id: 000448714f9e4a88a2547fa9f190146a
+status: 2
+status_message: null

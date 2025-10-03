@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-147589bbcc18450fa963b1766e974031/artifacts
+creation_timestamp: 1759287627382
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759287638517
+model_id: m-147589bbcc18450fa963b1766e974031
+model_type: ''
+name: inquisitive-bird-725
+source_run_id: b872a791c1b4415ea593643a204f1c5a
+status: 2
+status_message: null

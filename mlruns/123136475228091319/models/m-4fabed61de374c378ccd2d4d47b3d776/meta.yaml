@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-4fabed61de374c378ccd2d4d47b3d776/artifacts
+creation_timestamp: 1759202771757
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759202780711
+model_id: m-4fabed61de374c378ccd2d4d47b3d776
+model_type: ''
+name: clumsy-squid-516
+source_run_id: 40a70d6189e14eb1ba9cce57b3c7f869
+status: 2
+status_message: null

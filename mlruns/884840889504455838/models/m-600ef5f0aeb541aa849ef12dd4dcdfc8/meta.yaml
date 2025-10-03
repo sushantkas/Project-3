@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-600ef5f0aeb541aa849ef12dd4dcdfc8/artifacts
+creation_timestamp: 1759205372422
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759205381820
+model_id: m-600ef5f0aeb541aa849ef12dd4dcdfc8
+model_type: ''
+name: able-ram-781
+source_run_id: 2ff41b8970514ddcafb694ab88fabdd2
+status: 2
+status_message: null

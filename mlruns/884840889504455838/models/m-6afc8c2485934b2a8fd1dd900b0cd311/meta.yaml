@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-6afc8c2485934b2a8fd1dd900b0cd311/artifacts
+creation_timestamp: 1759289318925
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759289324257
+model_id: m-6afc8c2485934b2a8fd1dd900b0cd311
+model_type: ''
+name: nervous-snipe-306
+source_run_id: 27f0a336b7a0491bbd7bd1ab53f31625
+status: 2
+status_message: null

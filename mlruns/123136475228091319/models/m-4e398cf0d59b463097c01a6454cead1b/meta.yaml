@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-4e398cf0d59b463097c01a6454cead1b/artifacts
+creation_timestamp: 1759118341170
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759118350817
+model_id: m-4e398cf0d59b463097c01a6454cead1b
+model_type: ''
+name: brawny-cod-522
+source_run_id: 594db8575d784db8a71a1fce96eed859
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/123136475228091319/d66ed6dfbba8438ba7c85e48b707b724/artifacts
+end_time: 1759115330726
+entry_point_name: ''
+experiment_id: '123136475228091319'
+lifecycle_stage: active
+run_id: d66ed6dfbba8438ba7c85e48b707b724
+run_name: KNN
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759115317930
+status: 3
+tags: []
+user_id: susha

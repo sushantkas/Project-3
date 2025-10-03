@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-8eab3cf2420449e0943ca2f4fa1c504f/artifacts
+creation_timestamp: 1759202913380
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759202926232
+model_id: m-8eab3cf2420449e0943ca2f4fa1c504f
+model_type: ''
+name: marvelous-bee-448
+source_run_id: e79ffb7a22e14c6796a6bf43fe63a0a0
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-4ab97cae7f1a473d9837b9446b71fc26/artifacts
+creation_timestamp: 1759468145511
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759468150839
+model_id: m-4ab97cae7f1a473d9837b9446b71fc26
+model_type: ''
+name: angry-snake-591
+source_run_id: c6699dcb44bd44f9b1b2c0189bcc2920
+status: 2
+status_message: null

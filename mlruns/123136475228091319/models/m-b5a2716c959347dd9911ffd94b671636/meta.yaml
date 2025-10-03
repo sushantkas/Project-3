@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-b5a2716c959347dd9911ffd94b671636/artifacts
+creation_timestamp: 1759114014797
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759114024863
+model_id: m-b5a2716c959347dd9911ffd94b671636
+model_type: ''
+name: sedate-sow-954
+source_run_id: 2de13c276eb142b082aca4fd7dd54d57
+status: 2
+status_message: null

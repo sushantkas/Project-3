@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-c9056938126a49f48d6a30806bbca1e0/artifacts
+creation_timestamp: 1759203746706
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759203755356
+model_id: m-c9056938126a49f48d6a30806bbca1e0
+model_type: ''
+name: resilient-pig-540
+source_run_id: ac44755917c642bda414aeab3fe7f57c
+status: 2
+status_message: null

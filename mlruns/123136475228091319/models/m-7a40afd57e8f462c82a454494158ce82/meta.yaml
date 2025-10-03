@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-7a40afd57e8f462c82a454494158ce82/artifacts
+creation_timestamp: 1759118354331
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759118362849
+model_id: m-7a40afd57e8f462c82a454494158ce82
+model_type: ''
+name: bustling-zebra-121
+source_run_id: 649590ccee364c8aa6ca1b11141d5315
+status: 2
+status_message: null

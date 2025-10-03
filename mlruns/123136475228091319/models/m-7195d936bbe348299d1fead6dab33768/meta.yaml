@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-7195d936bbe348299d1fead6dab33768/artifacts
+creation_timestamp: 1759462750209
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759462759647
+model_id: m-7195d936bbe348299d1fead6dab33768
+model_type: ''
+name: legendary-whale-462
+source_run_id: 003d869c7cf5431db79a99fecd9de579
+status: 2
+status_message: null

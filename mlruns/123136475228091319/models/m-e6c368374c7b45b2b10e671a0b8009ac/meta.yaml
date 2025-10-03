@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-e6c368374c7b45b2b10e671a0b8009ac/artifacts
+creation_timestamp: 1759468071975
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759468076799
+model_id: m-e6c368374c7b45b2b10e671a0b8009ac
+model_type: ''
+name: amazing-gnat-32
+source_run_id: 73545b5fc6d24cecb48865453e27de11
+status: 2
+status_message: null

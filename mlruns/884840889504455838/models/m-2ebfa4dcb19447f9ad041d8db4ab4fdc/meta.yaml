@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-2ebfa4dcb19447f9ad041d8db4ab4fdc/artifacts
+creation_timestamp: 1759288096640
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759288102081
+model_id: m-2ebfa4dcb19447f9ad041d8db4ab4fdc
+model_type: ''
+name: righteous-goose-405
+source_run_id: b383b175506b4a50820acf991787c4aa
+status: 2
+status_message: null

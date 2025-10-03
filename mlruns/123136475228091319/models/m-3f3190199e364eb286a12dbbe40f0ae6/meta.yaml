@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-3f3190199e364eb286a12dbbe40f0ae6/artifacts
+creation_timestamp: 1759048401716
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759048406487
+model_id: m-3f3190199e364eb286a12dbbe40f0ae6
+model_type: ''
+name: calm-moose-776
+source_run_id: a091fb5c648b465b9948493e47064d2a
+status: 2
+status_message: null

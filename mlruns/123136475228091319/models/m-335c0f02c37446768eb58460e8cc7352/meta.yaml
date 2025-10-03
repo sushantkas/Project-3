@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-335c0f02c37446768eb58460e8cc7352/artifacts
+creation_timestamp: 1759068607161
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759068639081
+model_id: m-335c0f02c37446768eb58460e8cc7352
+model_type: ''
+name: kindly-mole-443
+source_run_id: 675f17d683114f34949992cc18736e5f
+status: 2
+status_message: null

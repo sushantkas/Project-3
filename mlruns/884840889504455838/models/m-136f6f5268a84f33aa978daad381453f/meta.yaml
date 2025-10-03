@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-136f6f5268a84f33aa978daad381453f/artifacts
+creation_timestamp: 1759463762552
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759463771750
+model_id: m-136f6f5268a84f33aa978daad381453f
+model_type: ''
+name: rebellious-swan-546
+source_run_id: 9233e4d224c8462faa60b9e8559abf90
+status: 2
+status_message: null

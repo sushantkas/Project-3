@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-84b2cf65ff674022998630e53cc0564a/artifacts
+creation_timestamp: 1759462775309
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759462787935
+model_id: m-84b2cf65ff674022998630e53cc0564a
+model_type: ''
+name: crawling-fly-276
+source_run_id: e1f70216342d4bc9a89e9d072e466fe0
+status: 2
+status_message: null

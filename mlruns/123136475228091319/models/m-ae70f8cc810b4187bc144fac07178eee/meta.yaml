@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-ae70f8cc810b4187bc144fac07178eee/artifacts
+creation_timestamp: 1759118366978
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759118379587
+model_id: m-ae70f8cc810b4187bc144fac07178eee
+model_type: ''
+name: respected-hound-582
+source_run_id: b97814767da94147ab4d0e6eac7cec5b
+status: 2
+status_message: null

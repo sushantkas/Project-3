@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-c4e9093ce5704ac2be7fe3f9aa9ea8cb/artifacts
+creation_timestamp: 1759379506231
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759379516628
+model_id: m-c4e9093ce5704ac2be7fe3f9aa9ea8cb
+model_type: ''
+name: delightful-cat-932
+source_run_id: a473dfe9f8e64e029f2f8171fd8f7ff2
+status: 2
+status_message: null

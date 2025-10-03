@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-b619dee5b88c4b8b9e24ae996ebda84d/artifacts
+creation_timestamp: 1759119602148
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759119615357
+model_id: m-b619dee5b88c4b8b9e24ae996ebda84d
+model_type: ''
+name: intrigued-moth-614
+source_run_id: 738731ac75a3440396e36e7def4e5d48
+status: 2
+status_message: null

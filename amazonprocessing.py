@@ -38,7 +38,15 @@ class preprocessing:
             'Order_Time', 'Pickup_Time', 'Weather', 'Traffic', 'Vehicle', 'Area',
             'Delivery_Time', 'Category'
         ]
+        _columns_x = [
+            'Order_ID', 'Agent_Age', 'Agent_Rating', 'Store_Latitude',
+            'Store_Longitude', 'Drop_Latitude', 'Drop_Longitude', 'Order_Date',
+            'Order_Time', 'Pickup_Time', 'Weather', 'Traffic', 'Vehicle', 'Area',
+            'Category'
+        ]
         if all(col in amazon.columns for col in _columns):
+            self.amazon = amazon
+        elif all(col in amazon.columns for col in _columns_x):
             self.amazon = amazon
         else:
             print(f"Mismatch in Columns Please pass all the necessary columns in dataset in Following order: {_columns}")

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-eff6f9d9a7174c8b8c2c92f2718298f9/artifacts
+creation_timestamp: 1759468060573
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759468071520
+model_id: m-eff6f9d9a7174c8b8c2c92f2718298f9
+model_type: ''
+name: fun-loon-455
+source_run_id: 574441e62f8b478882fc0e55eb05cddf
+status: 2
+status_message: null

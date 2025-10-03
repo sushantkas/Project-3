@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-f546d0074a174c73a467b88ded3bcc7b/artifacts
+creation_timestamp: 1759113288269
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759113304645
+model_id: m-f546d0074a174c73a467b88ded3bcc7b
+model_type: ''
+name: brawny-lamb-796
+source_run_id: cffe310cf9a24c629f802db8c42bb431
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-80c15ee7d7ae4c328c45adb98b522543/artifacts
+creation_timestamp: 1759468169535
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759468174044
+model_id: m-80c15ee7d7ae4c328c45adb98b522543
+model_type: ''
+name: spiffy-penguin-677
+source_run_id: c2470c18bf9b406daca7af99bc9ff47c
+status: 2
+status_message: null

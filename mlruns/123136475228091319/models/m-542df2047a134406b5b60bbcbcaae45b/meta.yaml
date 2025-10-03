@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-542df2047a134406b5b60bbcbcaae45b/artifacts
+creation_timestamp: 1759113376860
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759113385648
+model_id: m-542df2047a134406b5b60bbcbcaae45b
+model_type: ''
+name: dapper-kit-601
+source_run_id: 81ef939ac2e14fbfaaa42dd74e972ed3
+status: 2
+status_message: null

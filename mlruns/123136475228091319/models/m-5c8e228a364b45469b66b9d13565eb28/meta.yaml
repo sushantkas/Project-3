@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-5c8e228a364b45469b66b9d13565eb28/artifacts
+creation_timestamp: 1759202899398
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759202910516
+model_id: m-5c8e228a364b45469b66b9d13565eb28
+model_type: ''
+name: shivering-ape-266
+source_run_id: e890bc44d0754e829ad54c36fd78e5f3
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-53e56a930a8c4c1089de06496421fde5/artifacts
+creation_timestamp: 1759113305255
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759113313406
+model_id: m-53e56a930a8c4c1089de06496421fde5
+model_type: ''
+name: sincere-roo-973
+source_run_id: 436254a8b6ca4758acf0cc8064ba35bc
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-3e8ffb5d40ef42bdaae29923df0978fb/artifacts
+creation_timestamp: 1759462763306
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759462771632
+model_id: m-3e8ffb5d40ef42bdaae29923df0978fb
+model_type: ''
+name: blushing-steed-463
+source_run_id: 8b926a1adcb0462698ae6090918653a8
+status: 2
+status_message: null

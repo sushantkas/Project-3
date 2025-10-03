@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-80e740385b5e4d77a09dccb3d946176e/artifacts
+creation_timestamp: 1759121226683
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759121231256
+model_id: m-80e740385b5e4d77a09dccb3d946176e
+model_type: ''
+name: bemused-kit-220
+source_run_id: a32bcff8317e4052a6af3ef6afaffd11
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-2a04f585e01f4cec8dab8aefeba1c60c/artifacts
+creation_timestamp: 1759468161525
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759468166647
+model_id: m-2a04f585e01f4cec8dab8aefeba1c60c
+model_type: ''
+name: fearless-wren-110
+source_run_id: 3bee53f2f7eb4f6a97d9ee33104d4cf9
+status: 2
+status_message: null

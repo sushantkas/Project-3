@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-98135166c5b14fb6abe51d69ebf88c38/artifacts
+creation_timestamp: 1759118318186
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759118328809
+model_id: m-98135166c5b14fb6abe51d69ebf88c38
+model_type: ''
+name: youthful-duck-982
+source_run_id: f8f5c01d89e443d2b05632ebb2198852
+status: 2
+status_message: null

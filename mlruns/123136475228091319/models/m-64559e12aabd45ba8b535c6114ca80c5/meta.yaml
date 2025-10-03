@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-64559e12aabd45ba8b535c6114ca80c5/artifacts
+creation_timestamp: 1759115179349
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759115192311
+model_id: m-64559e12aabd45ba8b535c6114ca80c5
+model_type: ''
+name: grandiose-kite-585
+source_run_id: 697dd6d20d2c467287242a7e3d442f2a
+status: 2
+status_message: null

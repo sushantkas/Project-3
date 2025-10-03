@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-5ae65d82b6c74cc8a13c097ab43e8e0a/artifacts
+creation_timestamp: 1759203369705
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759203377835
+model_id: m-5ae65d82b6c74cc8a13c097ab43e8e0a
+model_type: ''
+name: popular-asp-220
+source_run_id: f0d4baf32a7245d9864281328e83b230
+status: 2
+status_message: null

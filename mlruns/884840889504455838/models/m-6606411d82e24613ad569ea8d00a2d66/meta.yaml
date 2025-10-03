@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-6606411d82e24613ad569ea8d00a2d66/artifacts
+creation_timestamp: 1759469308306
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759469316882
+model_id: m-6606411d82e24613ad569ea8d00a2d66
+model_type: ''
+name: incongruous-crow-685
+source_run_id: b952fd3b46f8495caf899c61adbe1b36
+status: 2
+status_message: null

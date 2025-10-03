@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-e34aaccf990d4007af2dcf6e23e6caaa/artifacts
+creation_timestamp: 1759463665122
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759463674725
+model_id: m-e34aaccf990d4007af2dcf6e23e6caaa
+model_type: ''
+name: secretive-gull-730
+source_run_id: 6a93634d7f1446c8a306e0626379eb4a
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-5dc94c02f72944b9835913f665acc434/artifacts
+creation_timestamp: 1759287185156
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759287193425
+model_id: m-5dc94c02f72944b9835913f665acc434
+model_type: ''
+name: sedate-pug-745
+source_run_id: 413a6c8b9f8c40728c514904163a172a
+status: 2
+status_message: null

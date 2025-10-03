@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/884840889504455838/ae41eedf6a1c496bb09c134e5aabd807/artifacts
+end_time: 1759469210097
+entry_point_name: ''
+experiment_id: '884840889504455838'
+lifecycle_stage: active
+run_id: ae41eedf6a1c496bb09c134e5aabd807
+run_name: RandomizedCV_GradientBoosting
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759468659446
+status: 3
+tags: []
+user_id: susha

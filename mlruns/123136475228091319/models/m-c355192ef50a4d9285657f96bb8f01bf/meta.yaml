@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-c355192ef50a4d9285657f96bb8f01bf/artifacts
+creation_timestamp: 1759118212489
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759118227105
+model_id: m-c355192ef50a4d9285657f96bb8f01bf
+model_type: ''
+name: melodic-calf-431
+source_run_id: 625f8299edd1470dbfc18abcf4666b9e
+status: 2
+status_message: null

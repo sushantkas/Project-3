@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-8816e83296f54a148e81ee49115b5eaa/artifacts
+creation_timestamp: 1759378024772
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759378033879
+model_id: m-8816e83296f54a148e81ee49115b5eaa
+model_type: ''
+name: adventurous-mare-544
+source_run_id: 9a2e61bb4b06443c89f62ac286bf23fe
+status: 2
+status_message: null

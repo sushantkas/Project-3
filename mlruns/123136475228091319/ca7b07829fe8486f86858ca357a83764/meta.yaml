@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/123136475228091319/ca7b07829fe8486f86858ca357a83764/artifacts
+end_time: 1759067403909
+entry_point_name: ''
+experiment_id: '123136475228091319'
+lifecycle_stage: active
+run_id: ca7b07829fe8486f86858ca357a83764
+run_name: Decision Tree
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759067398944
+status: 3
+tags: []
+user_id: susha

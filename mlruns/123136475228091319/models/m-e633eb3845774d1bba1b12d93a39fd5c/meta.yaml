@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-e633eb3845774d1bba1b12d93a39fd5c/artifacts
+creation_timestamp: 1759068639566
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759068644375
+model_id: m-e633eb3845774d1bba1b12d93a39fd5c
+model_type: ''
+name: burly-squid-760
+source_run_id: 0849b28495334c10a8b65d24069e9d82
+status: 2
+status_message: null

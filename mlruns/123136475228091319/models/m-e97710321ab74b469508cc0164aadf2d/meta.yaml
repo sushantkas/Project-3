@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-e97710321ab74b469508cc0164aadf2d/artifacts
+creation_timestamp: 1759377206025
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759377220704
+model_id: m-e97710321ab74b469508cc0164aadf2d
+model_type: ''
+name: amazing-mule-350
+source_run_id: 54e484f1e2954d5c8484ff1c374f77b6
+status: 2
+status_message: null

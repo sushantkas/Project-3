@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/123136475228091319/56da6d360daa45dc8f03c6d03efa7fd3/artifacts
+end_time: 1759118849787
+entry_point_name: ''
+experiment_id: '123136475228091319'
+lifecycle_stage: active
+run_id: 56da6d360daa45dc8f03c6d03efa7fd3
+run_name: Randomized Hyperparameter Search
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759118379915
+status: 4
+tags: []
+user_id: susha

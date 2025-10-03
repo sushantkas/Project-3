@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-5a65014b7b1c4257bc143ea8b13177f2/artifacts
+creation_timestamp: 1759067451787
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759067456982
+model_id: m-5a65014b7b1c4257bc143ea8b13177f2
+model_type: ''
+name: dazzling-shoat-71
+source_run_id: f9cf97f9fa894647a1093130affd63ba
+status: 2
+status_message: null

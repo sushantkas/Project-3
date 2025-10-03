@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-850f367d98394cf795fd62625763a218/artifacts
+creation_timestamp: 1759202861155
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759202871116
+model_id: m-850f367d98394cf795fd62625763a218
+model_type: ''
+name: intelligent-elk-969
+source_run_id: 52b2a4522e6e49d9be891a95657e3a94
+status: 2
+status_message: null

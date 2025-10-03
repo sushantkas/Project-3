@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-29b7bdcf51c34efba638c97824bede76/artifacts
+creation_timestamp: 1759288008121
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759288012766
+model_id: m-29b7bdcf51c34efba638c97824bede76
+model_type: ''
+name: awesome-penguin-408
+source_run_id: bf81299c3e56450e886f02b027f548cd
+status: 2
+status_message: null

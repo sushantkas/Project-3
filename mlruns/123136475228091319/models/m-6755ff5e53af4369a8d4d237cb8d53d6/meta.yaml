@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-6755ff5e53af4369a8d4d237cb8d53d6/artifacts
+creation_timestamp: 1759114025689
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759114035121
+model_id: m-6755ff5e53af4369a8d4d237cb8d53d6
+model_type: ''
+name: tasteful-deer-541
+source_run_id: f00039a83d544f909910b0aaaa92bd8d
+status: 2
+status_message: null

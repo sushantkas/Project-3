@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-356814688a0d470d925ddb13818db917/artifacts
+creation_timestamp: 1759068825672
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759068830748
+model_id: m-356814688a0d470d925ddb13818db917
+model_type: ''
+name: worried-bass-848
+source_run_id: 7a168cd2be9943fa9cb187283ae682d9
+status: 2
+status_message: null

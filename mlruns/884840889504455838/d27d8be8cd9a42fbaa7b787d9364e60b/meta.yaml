@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/884840889504455838/d27d8be8cd9a42fbaa7b787d9364e60b/artifacts
+end_time: 1759293783236
+entry_point_name: ''
+experiment_id: '884840889504455838'
+lifecycle_stage: active
+run_id: d27d8be8cd9a42fbaa7b787d9364e60b
+run_name: Final_Model_Catboost
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759293739615
+status: 3
+tags: []
+user_id: susha

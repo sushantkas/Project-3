@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/884840889504455838/ccfe4f1b2be244039769c2befbe3a306/artifacts
+end_time: 1759292888034
+entry_point_name: ''
+experiment_id: '884840889504455838'
+lifecycle_stage: active
+run_id: ccfe4f1b2be244039769c2befbe3a306
+run_name: classy-penguin-506
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759291023715
+status: 3
+tags: []
+user_id: susha

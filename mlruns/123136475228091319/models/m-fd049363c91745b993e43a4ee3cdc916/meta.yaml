@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-fd049363c91745b993e43a4ee3cdc916/artifacts
+creation_timestamp: 1759068731261
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759068736355
+model_id: m-fd049363c91745b993e43a4ee3cdc916
+model_type: ''
+name: bittersweet-foal-892
+source_run_id: 753ab82f36424fddb4b46aa5c47218e6
+status: 2
+status_message: null

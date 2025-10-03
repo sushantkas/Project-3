@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-008ff67b5d504944a128434db6417f2d/artifacts
+creation_timestamp: 1759118329773
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759118337659
+model_id: m-008ff67b5d504944a128434db6417f2d
+model_type: ''
+name: youthful-moth-412
+source_run_id: 1148ad20f9ca40bc8a8715547ae760df
+status: 2
+status_message: null

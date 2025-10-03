@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-57ad43b18eef48fda904b607d0ee841e/artifacts
+creation_timestamp: 1759377167081
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759377176394
+model_id: m-57ad43b18eef48fda904b607d0ee841e
+model_type: ''
+name: secretive-zebra-873
+source_run_id: fb752fe2300d43fab65d5c0185b3475d
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-84f0638a95ea482fa00630497a51b32d/artifacts
+creation_timestamp: 1759068527158
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759068536050
+model_id: m-84f0638a95ea482fa00630497a51b32d
+model_type: ''
+name: able-donkey-225
+source_run_id: e686cb8a54484c1699a5ce033ae96b34
+status: 2
+status_message: null

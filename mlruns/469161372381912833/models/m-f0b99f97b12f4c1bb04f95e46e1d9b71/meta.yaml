@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/469161372381912833/models/m-f0b99f97b12f4c1bb04f95e46e1d9b71/artifacts
+creation_timestamp: 1759295924345
+experiment_id: '469161372381912833'
+last_updated_timestamp: 1759295929084
+model_id: m-f0b99f97b12f4c1bb04f95e46e1d9b71
+model_type: ''
+name: Final_Model_Catboost
+source_run_id: f56cbb4608334b259cd547aff182dff9
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-2aab5b5e88b042f1b53754d664b1c8a5/artifacts
+creation_timestamp: 1759069079276
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759069087110
+model_id: m-2aab5b5e88b042f1b53754d664b1c8a5
+model_type: ''
+name: luminous-ape-946
+source_run_id: eb632a3dc0a340549f9c71042db19429
+status: 2
+status_message: null

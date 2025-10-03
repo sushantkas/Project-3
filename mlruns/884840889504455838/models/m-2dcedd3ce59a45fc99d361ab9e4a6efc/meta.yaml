@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-2dcedd3ce59a45fc99d361ab9e4a6efc/artifacts
+creation_timestamp: 1759205200552
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759205205607
+model_id: m-2dcedd3ce59a45fc99d361ab9e4a6efc
+model_type: ''
+name: luxuriant-deer-903
+source_run_id: 50a8417fac884fa58fdc7ce95b41525d
+status: 2
+status_message: null

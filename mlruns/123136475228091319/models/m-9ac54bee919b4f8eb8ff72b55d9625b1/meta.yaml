@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-9ac54bee919b4f8eb8ff72b55d9625b1/artifacts
+creation_timestamp: 1759202872473
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759202882398
+model_id: m-9ac54bee919b4f8eb8ff72b55d9625b1
+model_type: ''
+name: awesome-ape-233
+source_run_id: 200d39b323a048e5b9eb5ba8d3daa689
+status: 2
+status_message: null

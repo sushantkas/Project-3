@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-27aafbb504764cd288dd0e50aec4f26d/artifacts
+creation_timestamp: 1759463266353
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759463274391
+model_id: m-27aafbb504764cd288dd0e50aec4f26d
+model_type: ''
+name: trusting-fowl-338
+source_run_id: e9199bb08b1e4dfa8076deaebda3b781
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-ccd7be26f7b04b6f984abe569cc02321/artifacts
+creation_timestamp: 1759068891130
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759068895832
+model_id: m-ccd7be26f7b04b6f984abe569cc02321
+model_type: ''
+name: mercurial-swan-85
+source_run_id: 406bea8325da491b8bb2b32db1755907
+status: 2
+status_message: null

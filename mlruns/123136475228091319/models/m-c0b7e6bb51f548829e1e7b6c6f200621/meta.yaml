@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-c0b7e6bb51f548829e1e7b6c6f200621/artifacts
+creation_timestamp: 1759067393558
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759067398671
+model_id: m-c0b7e6bb51f548829e1e7b6c6f200621
+model_type: ''
+name: mysterious-hen-797
+source_run_id: 4709e4ddc8804215a6e276d4a38f8704
+status: 2
+status_message: null

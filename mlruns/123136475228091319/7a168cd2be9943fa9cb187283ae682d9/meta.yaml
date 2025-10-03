@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/123136475228091319/7a168cd2be9943fa9cb187283ae682d9/artifacts
+end_time: 1759068830763
+entry_point_name: ''
+experiment_id: '123136475228091319'
+lifecycle_stage: active
+run_id: 7a168cd2be9943fa9cb187283ae682d9
+run_name: XGBOOST
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759068825285
+status: 3
+tags: []
+user_id: susha

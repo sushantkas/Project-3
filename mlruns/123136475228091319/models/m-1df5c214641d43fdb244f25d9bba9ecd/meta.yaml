@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-1df5c214641d43fdb244f25d9bba9ecd/artifacts
+creation_timestamp: 1759287060206
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759287068868
+model_id: m-1df5c214641d43fdb244f25d9bba9ecd
+model_type: ''
+name: adorable-gnu-475
+source_run_id: ac6a5b30e25b458884b8e6fc618071f2
+status: 2
+status_message: null

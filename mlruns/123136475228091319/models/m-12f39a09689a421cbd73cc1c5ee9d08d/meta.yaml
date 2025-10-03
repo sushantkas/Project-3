@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-12f39a09689a421cbd73cc1c5ee9d08d/artifacts
+creation_timestamp: 1759114115885
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759114124567
+model_id: m-12f39a09689a421cbd73cc1c5ee9d08d
+model_type: ''
+name: persistent-bat-523
+source_run_id: f874d788e20c41a6918953292d830e53
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/469161372381912833/models/m-8ad0fc5420c6424d93353697e8c37bd7/artifacts
+creation_timestamp: 1759471062833
+experiment_id: '469161372381912833'
+last_updated_timestamp: 1759471072407
+model_id: m-8ad0fc5420c6424d93353697e8c37bd7
+model_type: ''
+name: Final_Model_GradientboostingRegressor
+source_run_id: 30b0eaf39a9e4cbeb001e3a7ec704df0
+status: 2
+status_message: null

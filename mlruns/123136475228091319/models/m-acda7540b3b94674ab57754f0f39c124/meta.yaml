@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-acda7540b3b94674ab57754f0f39c124/artifacts
+creation_timestamp: 1759287158967
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759287168492
+model_id: m-acda7540b3b94674ab57754f0f39c124
+model_type: ''
+name: puzzled-rook-647
+source_run_id: d98b99c278a448bcb38f5e577c5a1f65
+status: 2
+status_message: null

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-4179f05519e94f3793e234041846a536/artifacts
+creation_timestamp: 1759377180142
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759377189967
+model_id: m-4179f05519e94f3793e234041846a536
+model_type: ''
+name: upset-kit-712
+source_run_id: e95fe291b74e40c88b01eab55201e05a
+status: 2
+status_message: null

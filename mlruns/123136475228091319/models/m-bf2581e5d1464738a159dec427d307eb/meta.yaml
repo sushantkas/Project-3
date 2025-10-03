@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-bf2581e5d1464738a159dec427d307eb/artifacts
+creation_timestamp: 1759377155752
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759377165761
+model_id: m-bf2581e5d1464738a159dec427d307eb
+model_type: ''
+name: clean-fly-97
+source_run_id: 354d04dcd8ad4b11a60c2acb5af13fa4
+status: 2
+status_message: null

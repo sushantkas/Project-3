@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-d534a96f6ca5441abd647ddac35ef52e/artifacts
+creation_timestamp: 1759377067182
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759377076237
+model_id: m-d534a96f6ca5441abd647ddac35ef52e
+model_type: ''
+name: melodic-owl-181
+source_run_id: 4a20f75a096b4382b1655dcb8a218f38
+status: 2
+status_message: null

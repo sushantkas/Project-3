@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-229e4603c71a4591a334417002254cfd/artifacts
+creation_timestamp: 1759115318143
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759115330708
+model_id: m-229e4603c71a4591a334417002254cfd
+model_type: ''
+name: brawny-hare-283
+source_run_id: d66ed6dfbba8438ba7c85e48b707b724
+status: 2
+status_message: null

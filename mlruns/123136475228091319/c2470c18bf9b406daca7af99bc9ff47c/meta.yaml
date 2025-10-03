@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/123136475228091319/c2470c18bf9b406daca7af99bc9ff47c/artifacts
+end_time: 1759468174068
+entry_point_name: ''
+experiment_id: '123136475228091319'
+lifecycle_stage: active
+run_id: c2470c18bf9b406daca7af99bc9ff47c
+run_name: Catboost_Regressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759468169185
+status: 3
+tags: []
+user_id: susha

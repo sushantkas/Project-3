@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-8bea2665cfb646bf811331bd30bfacd7/artifacts
+creation_timestamp: 1759289472119
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759289479812
+model_id: m-8bea2665cfb646bf811331bd30bfacd7
+model_type: ''
+name: trusting-worm-742
+source_run_id: f60b29bccd8d454cb128b84358de435d
+status: 2
+status_message: null

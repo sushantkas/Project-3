@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-a07850f36f124d65b9d2aa85c11a9c52/artifacts
+creation_timestamp: 1759287147737
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759287157627
+model_id: m-a07850f36f124d65b9d2aa85c11a9c52
+model_type: ''
+name: worried-midge-425
+source_run_id: aedbd9800cc44dc39f2790eec8ff9d18
+status: 2
+status_message: null

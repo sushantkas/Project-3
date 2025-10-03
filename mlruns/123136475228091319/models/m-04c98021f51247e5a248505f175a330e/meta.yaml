@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-04c98021f51247e5a248505f175a330e/artifacts
+creation_timestamp: 1759462625869
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759462640506
+model_id: m-04c98021f51247e5a248505f175a330e
+model_type: ''
+name: useful-snipe-900
+source_run_id: 2515f029d1124bfeaa95d7165bca202f
+status: 2
+status_message: null

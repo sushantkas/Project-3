@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-60f7fa1f0e4041d2827f42061c7f21c0/artifacts
+creation_timestamp: 1759287196874
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759287209725
+model_id: m-60f7fa1f0e4041d2827f42061c7f21c0
+model_type: ''
+name: puzzled-shoat-543
+source_run_id: 3381b7a9200046b8a793300d2fcad0b8
+status: 2
+status_message: null

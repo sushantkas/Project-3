@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-307c71e31d4f4afd9da6c4056a48c146/artifacts
+creation_timestamp: 1759470981147
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759470991675
+model_id: m-307c71e31d4f4afd9da6c4056a48c146
+model_type: ''
+name: luminous-gnu-106
+source_run_id: ae65bfaafabb47dbad75873138f4735e
+status: 2
+status_message: null

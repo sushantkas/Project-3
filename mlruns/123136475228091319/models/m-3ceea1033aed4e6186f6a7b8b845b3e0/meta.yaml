@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-3ceea1033aed4e6186f6a7b8b845b3e0/artifacts
+creation_timestamp: 1759067232855
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759067241666
+model_id: m-3ceea1033aed4e6186f6a7b8b845b3e0
+model_type: ''
+name: enthused-mole-386
+source_run_id: ec4e90b8ea054eb8bd53e69719ee0832
+status: 2
+status_message: null

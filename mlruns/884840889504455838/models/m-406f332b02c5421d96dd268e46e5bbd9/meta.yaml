@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-406f332b02c5421d96dd268e46e5bbd9/artifacts
+creation_timestamp: 1759468651774
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759468659279
+model_id: m-406f332b02c5421d96dd268e46e5bbd9
+model_type: ''
+name: enchanting-trout-693
+source_run_id: 584d28e7015a4bc5b99302173d110820
+status: 2
+status_message: null

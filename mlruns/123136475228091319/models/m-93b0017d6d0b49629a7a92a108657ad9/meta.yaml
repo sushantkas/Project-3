@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-93b0017d6d0b49629a7a92a108657ad9/artifacts
+creation_timestamp: 1759067316080
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759067321318
+model_id: m-93b0017d6d0b49629a7a92a108657ad9
+model_type: ''
+name: agreeable-slug-716
+source_run_id: cd7bc1dc7133459b9203fa7dedb48a66
+status: 2
+status_message: null

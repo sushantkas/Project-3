@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-fa37546a174a478981ac02f0cfd48350/artifacts
+creation_timestamp: 1759203842832
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759203854204
+model_id: m-fa37546a174a478981ac02f0cfd48350
+model_type: ''
+name: incongruous-asp-365
+source_run_id: 5be32ddfc210475384e5828e8ec32e63
+status: 2
+status_message: null

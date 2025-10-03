@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-80d613d98dfb4bb79eed8f0b2885d4b8/artifacts
+creation_timestamp: 1759069087485
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759069092140
+model_id: m-80d613d98dfb4bb79eed8f0b2885d4b8
+model_type: ''
+name: nosy-grub-629
+source_run_id: 2e6c6b991a354b928a1722bef91e4b7c
+status: 2
+status_message: null

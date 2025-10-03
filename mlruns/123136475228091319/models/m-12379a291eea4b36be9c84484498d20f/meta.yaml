@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-12379a291eea4b36be9c84484498d20f/artifacts
+creation_timestamp: 1759202886403
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759202895486
+model_id: m-12379a291eea4b36be9c84484498d20f
+model_type: ''
+name: tasteful-penguin-316
+source_run_id: 1eb6147d44594d5c9212953c5d50e1a0
+status: 2
+status_message: null

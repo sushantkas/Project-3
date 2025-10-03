@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-c772e85ecd1d40f1a59f93b7e2873f69/artifacts
+creation_timestamp: 1759462737522
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759462746748
+model_id: m-c772e85ecd1d40f1a59f93b7e2873f69
+model_type: ''
+name: orderly-seal-538
+source_run_id: 7dcb8cfc38f44cd4b91db338f5a2ff6d
+status: 2
+status_message: null

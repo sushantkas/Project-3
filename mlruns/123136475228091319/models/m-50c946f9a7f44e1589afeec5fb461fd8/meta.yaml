@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-50c946f9a7f44e1589afeec5fb461fd8/artifacts
+creation_timestamp: 1759115283101
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759115295173
+model_id: m-50c946f9a7f44e1589afeec5fb461fd8
+model_type: ''
+name: upbeat-wren-283
+source_run_id: c7ff1f1999a449a185b5b7872ef19e2e
+status: 2
+status_message: null

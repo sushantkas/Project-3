@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-2d1b63fe8f6a4d35a184f6c5f943ded2/artifacts
+creation_timestamp: 1759377637628
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759377650061
+model_id: m-2d1b63fe8f6a4d35a184f6c5f943ded2
+model_type: ''
+name: colorful-foal-974
+source_run_id: 7284d6b4f80742f1832998b4f9eaad8f
+status: 2
+status_message: null

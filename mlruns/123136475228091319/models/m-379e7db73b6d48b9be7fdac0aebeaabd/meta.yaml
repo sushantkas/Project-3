@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-379e7db73b6d48b9be7fdac0aebeaabd/artifacts
+creation_timestamp: 1759113365871
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759113375620
+model_id: m-379e7db73b6d48b9be7fdac0aebeaabd
+model_type: ''
+name: treasured-grouse-699
+source_run_id: 9a4dd579ca724bbead27226c0fd92d3c
+status: 2
+status_message: null

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/123136475228091319/5be46ae00e394943a8342ac95bbb4cda/artifacts
+end_time: 1759462736179
+entry_point_name: ''
+experiment_id: '123136475228091319'
+lifecycle_stage: active
+run_id: 5be46ae00e394943a8342ac95bbb4cda
+run_name: GradientBoostingRegressor
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759462724345
+status: 3
+tags: []
+user_id: susha

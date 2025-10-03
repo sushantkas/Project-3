@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-dc34ec4bcb314e3f91d2f4dc958ab0ce/artifacts
+creation_timestamp: 1759378119296
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759378128717
+model_id: m-dc34ec4bcb314e3f91d2f4dc958ab0ce
+model_type: ''
+name: honorable-crow-655
+source_run_id: a6d67104f4414e048e2e49a4c1ce8e11
+status: 2
+status_message: null

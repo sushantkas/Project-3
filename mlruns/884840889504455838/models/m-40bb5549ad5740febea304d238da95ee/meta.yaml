@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-40bb5549ad5740febea304d238da95ee/artifacts
+creation_timestamp: 1759377655100
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759377662867
+model_id: m-40bb5549ad5740febea304d238da95ee
+model_type: ''
+name: classy-conch-785
+source_run_id: 09fdfcdbf99c450594f953f0c4759d9a
+status: 2
+status_message: null

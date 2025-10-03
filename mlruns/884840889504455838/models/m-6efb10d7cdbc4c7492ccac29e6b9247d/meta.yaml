@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-6efb10d7cdbc4c7492ccac29e6b9247d/artifacts
+creation_timestamp: 1759470811271
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759470820830
+model_id: m-6efb10d7cdbc4c7492ccac29e6b9247d
+model_type: ''
+name: omniscient-cod-670
+source_run_id: e6821de5e3594e5f885c207c9b2f265d
+status: 2
+status_message: null

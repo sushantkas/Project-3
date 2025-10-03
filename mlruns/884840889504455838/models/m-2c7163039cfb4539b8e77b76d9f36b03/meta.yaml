@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/884840889504455838/models/m-2c7163039cfb4539b8e77b76d9f36b03/artifacts
+creation_timestamp: 1759203352271
+experiment_id: '884840889504455838'
+last_updated_timestamp: 1759203364970
+model_id: m-2c7163039cfb4539b8e77b76d9f36b03
+model_type: ''
+name: wise-vole-469
+source_run_id: e7c85666254246589cebd626d5afa8e5
+status: 2
+status_message: null

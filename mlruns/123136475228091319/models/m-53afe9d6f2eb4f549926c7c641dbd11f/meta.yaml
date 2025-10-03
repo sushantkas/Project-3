@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-53afe9d6f2eb4f549926c7c641dbd11f/artifacts
+creation_timestamp: 1759113845857
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759113854051
+model_id: m-53afe9d6f2eb4f549926c7c641dbd11f
+model_type: ''
+name: bedecked-lark-388
+source_run_id: 934a9da5291442b488f575a7efa55811
+status: 2
+status_message: null

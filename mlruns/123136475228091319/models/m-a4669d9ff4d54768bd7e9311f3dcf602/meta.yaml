@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-a4669d9ff4d54768bd7e9311f3dcf602/artifacts
+creation_timestamp: 1759068536486
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759068541359
+model_id: m-a4669d9ff4d54768bd7e9311f3dcf602
+model_type: ''
+name: dazzling-fish-538
+source_run_id: 42f30aab23a14d4fadd20740d780ccbe
+status: 2
+status_message: null

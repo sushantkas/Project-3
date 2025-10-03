@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-92c4a496700141cbaedac47f93c05b32/artifacts
+creation_timestamp: 1759114828832
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759114837199
+model_id: m-92c4a496700141cbaedac47f93c05b32
+model_type: ''
+name: redolent-ape-380
+source_run_id: 86f3befdc61546f1a5e46a9a234da460
+status: 2
+status_message: null

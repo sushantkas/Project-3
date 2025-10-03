@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/123136475228091319/models/m-44dff38c4c04446dba36478b4b1c77af/artifacts
+creation_timestamp: 1759069138795
+experiment_id: '123136475228091319'
+last_updated_timestamp: 1759069143148
+model_id: m-44dff38c4c04446dba36478b4b1c77af
+model_type: ''
+name: valuable-grub-954
+source_run_id: 34995707b5f6440c8a41b433f2d6ed97
+status: 2
+status_message: null
