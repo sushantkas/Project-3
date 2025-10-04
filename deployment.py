@@ -13,9 +13,6 @@ st.set_page_config(
 
 
 
-
-
-
 # --- custom loader (converted from your React code) ---
 loader_html = """
 <div class="pyramid-loader">
@@ -228,7 +225,7 @@ else:
         col1, col2, col3 = st.columns(3)
         # First Columns iNput
         with col1:
-            agent_age=st.number_input("Agent Age", min_value=0,max_value=70, value='min')
+            agent_age=st.number_input("Agent Age", min_value=15,max_value=70, value='min')
             agent_rating=st.number_input("Agent Rating", min_value=1,max_value=6, value='min')
             store_latitude=st.number_input("Store Latitude", min_value=0.0,max_value=40.914057, value='min', step=0.05)
             store_longitude=st.number_input("Store Longitude", min_value=0.0,max_value=100.00, value='min', step=0.5)
