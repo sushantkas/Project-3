@@ -179,6 +179,7 @@ def _data_loading(data,model="LightGBM"):
         data[y_numeric_column]=y
         return data
     else:
+        model=gradient_model
         y=y_scaler.inverse_transform(pd.DataFrame([model.predict(x_scaled)]))
         data[y_numeric_column]=y
         return data
@@ -192,7 +193,7 @@ def _dataframe_predict(data, model="LightGBM"):
     x_scaled = x_scaled[ml_columns_order]
 
     # resolve model object (allow passing "LightGBM" or a model instance)
-    model_obj = LGBM if model == "LightGBM" else model
+    model_obj = LGBM if model == "LightGBM" else gradient_model
 
     # predict -> ensure shape (n_samples, 1) for inverse_transform
     preds = model_obj.predict(x_scaled)
@@ -214,10 +215,11 @@ if on:
     placeholder.empty()
     amazon=st.file_uploader("Upload CSV file only...",type="csv")
     if amazon is not None:
+        model=st.selectbox("Select ML Model for Prediction",["LightGBM","GradientBoosting"])
         if st.button(label="Load and Predict"):
             amazon=pd.read_csv(amazon)
             amazon=amazonprocessing.amazon_preprocess(amazon)
-            predicted_y =_dataframe_predict(amazon)
+            predicted_y =_dataframe_predict(amazon, model=model)
             st.write("Successful")
             st.dataframe(predicted_y)
     
@@ -257,21 +259,21 @@ else:
             'Area':area,'Category':category, 'Distance_km':distance, 'Delay':delay,
             'Order_day':day, 'Pickup_day_part':pickup_part
             }])
-            
-        st.form_submit_button('Update values')
+            model=st.selectbox("Select ML Model for Prediction",["LightGBM","GradientBoosting"])
+        st.form_submit_button('Update values', type="primary")
     placeholder.empty()
     
 
 
     st.dataframe(data)
         
-    if st.button("Predict.."):
+    if st.button("Predict..", type="primary", use_container_width=True):
         with st.status("Processing and Predicting in Progress", expanded=False) as status:
             #st.dataframe(_data_loading(data))
-            predicted=_data_loading(data)
+            predicted=_data_loading(data, model=model)
             status.update(label="Prediction Successful.", state="complete", expanded=True)
             st.write(f"Estimated delivery time is {int(predicted[y_numeric_column].values[0])} hours")
 
-    st.write("So far Excuted")
+
 
 
